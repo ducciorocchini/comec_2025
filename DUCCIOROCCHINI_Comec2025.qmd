@@ -121,7 +121,7 @@ df
 ```
 
 ::: {style="text-align: center;"}
-![](../images/ridgeline_tab.png){fig-align="center" width="70%"}
+![](../images/ridgeline_tab.png){fig-align="center" width="50%"}
 :::
 
 ## tidyverse mode
@@ -132,7 +132,7 @@ df
 ```
 
 ::: {style="text-align: center;"}
-![](../images/ridgeline_tidy.png){fig-align="center"}
+![](../images/ridgeline_tidy.png){fig-align="center" width="30%"}
 :::
 
 ## Example
@@ -222,6 +222,30 @@ c3 = c(day[[3]], night[[3]])
 im.ridgeline(c3, scale=2)
 ```
 
+## Species distributions
+
+::: {style="text-align: center;"}
+![](../images/rocio_decreasing.png){fig-align="center"}
+:::
+
+## Ridgeline plots for species distributions
+
+::: {style="text-align: center;"}
+![](../images/rocio_decreasing_ridge.png){fig-align="center"}
+:::
+
+## Increasing ranges
+
+::: {style="text-align: center;"}
+![](../images/rocio_increasing.png){fig-align="center"}
+:::
+
+## Ridgeline plots for increasing ranges
+
+::: {style="text-align: center;"}
+![](../images/rocio_increasing_ridge.png){fig-align="center"}
+:::
+
 ## Colorblindness
 
 ```{r colorblindness, echo = T, warning = FALSE, message = FALSE}
@@ -256,7 +280,6 @@ citation("cblindplot")
 
 -   Enhance **interpretability** of dense satellite datasets
 -   Foster **reproducibility** and **scalability** through open-source tools in R
-
 
 ## Many thanks!
 
